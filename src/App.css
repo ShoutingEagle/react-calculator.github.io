@@ -1,0 +1,56 @@
+.App{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.calculator{
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 30px;  
+  box-shadow:20px -20px 100px rgb(46, 77, 214),-20px 20px 100px rgb(235, 53, 98);
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.input{
+  height: 40px;
+  width: 80%;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  font-size: 20px;
+}
+
+.message{
+  font-size: 20px;
+}
